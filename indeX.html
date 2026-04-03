@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pravi Driving School</title>
+
+<link href="https://www.fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:Poppins,sans-serif;
+background:#f4f4f4;
+}
+
+header{
+background:linear-gradient(135deg,#7b1fa2,#4a148c);
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.app-container{
+max-width:900px;
+margin:auto;
+}
+
+.hero{
+padding:25px;
+background:white;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,0.08);
+}
+
+.price{
+font-size:20px;
+color:#7b1fa2;
+font-weight:600;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:10px;
+padding:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:8px;
+}
+
+form{
+display:grid;
+gap:10px;
+}
+
+input,select,textarea{
+padding:12px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+background:#7b1fa2;
+color:white;
+border:none;
+padding:12px;
+border-radius:6px;
+font-weight:600;
+cursor:pointer;
+}
+
+button:hover{
+background:#4a148c;
+}
+
+iframe{
+width:100%;
+border-radius:10px;
+border:0;
+}
+
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+background:white;
+display:flex;
+justify-content:space-around;
+padding:10px;
+box-shadow:0 -4px 10px rgba(0,0,0,0.1);
+}
+
+.bottom-nav a{
+text-decoration:none;
+color:#7b1fa2;
+font-weight:600;
+font-size:14px;
+}
+
+.whatsapp{
+position:fixed;
+right:15px;
+bottom:70px;
+background:#25D366;
+color:white;
+padding:12px 16px;
+border-radius:25px;
+text-decoration:none;
+font-weight:600;
+}
+
+section{
+padding-bottom:80px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>🚗 Pravi Driving School</h2>
+<p>Moshi,Pimpri-Chichwad • Pune</p>
+</header>
+
+
+<div class="app-container">
+
+<section id="home" class="hero">
+<h2>Learn Driving with Confidence</h2>
+<p>Special driving classes for women</p>
+</section>
+
+
+<section id="courses">
+<div class="grid">
+
+<div class="card">
+<h3>🚗 Car Training</h3>
+<p>Complete road practice</p>
+<div class="price">₹7000</div>
+</div>
+
+<div class="card">
+<h3>🛵 Scooty Training</h3>
+<p>Beginner friendly lessons</p>
+<div class="price">₹3500</div>
+</div>
+
+<div class="card">
+<h3>📄 License Help</h3>
+<p>Learning + permanent license</p>
+<div class="price">₹2500</div>
+</div>
+
+</div>
+</section>
+
+
+<section id="gallery">
+<h3 style="text-align:center">Training Photos</h3>
+
+<div class="gallery">
+
+<img src="C:\Users\kunal\OneDrive\Desktop\1img.jpeg">
+<img src="C:\Users\kunal\OneDrive\Desktop\2img.jpeg">
+<img src="C:\Users\kunal\OneDrive\Desktop\4img.jpeg">
+<img src="C:\Users\kunal\OneDrive\Desktop\3img.jpeg">
+
+</div>
+</section>
+
+
+<section id="registration">
+
+<div class="card">
+
+<h3>Student Registration</h3>
+
+<form action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+
+<input type="text" name="Name" placeholder="Full Name" required>
+
+<input type="tel" name="Phone" placeholder="Phone Number" required>
+
+<input type="text" name="Location" placeholder="Your Location">
+
+<select name="Courses">
+<option>Car Driving Course</option>
+<option>Scooty Training</option>
+<option>License Assistance</option>
+</select>
+
+<textarea name="Message" placeholder="Message"></textarea>
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+<section id="youtube">
+
+<div class="card">
+
+<h3>Driving Tips Videos</h3>
+
+<p>Watch our driving tips on YouTube.</p>
+
+<a href="https://youtu.be/rAJpkmXPG4w?si=o8il5LJbnunNCGzO">
+Watch on YouTube</a>
+
+</div>
+
+
+</section>
+
+
+<section id="instagram">
+
+<div class="card">
+
+<h3>Follow Us on Instagram</h3>
+
+<a href="https://www.instagram.com/pravii.driving?utm_source=qr&igsh=MW0yZWF3Z2thc2NscA==" target="_blank">
+Visit our Instagram Page
+</a>
+
+</div>
+
+</section>
+
+
+<section id="reviews">
+
+<div class="card">
+
+<h3>Google Reviews</h3>
+
+<a href="https://maps.app.goo.gl/RK995cFTesoY21k18?g_st=awb">
+Leave a Google Review
+</a>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<div class="card">
+
+<h3>Contact</h3>
+
+<p>📍 Moshi, Pune</p>
+
+<p>📞 8208070930</p>
+<p>📞 7030519056</p>
+
+</div>
+
+</section>
+
+</div>
+
+
+<a class="whatsapp" href="https://wa.me/918208070930">WhatsApp</a>
+<a class="whatsapp" href="https://wa.me/917030519056">WhatsApp</a>
+
+<div class="bottom-nav">
+<a href="#home">Home</a>
+<a href="#courses">Courses</a>
+<a href="#gallery">Gallery</a>
+<a href="#registration">Register</a>
+<a href="#contact">Contact</a>
+</div>
+
+<script>
+
+let index=0;
+
+function moveSlide(step){
+const slides=document.querySelector('.slides');
+const total=slides.children.length;
+
+index=index+step;
+
+if(index<0) index=total-1;
+if(index>=total) index=0;
+
+slides.style.transform="translateX(-"+index*100+"%)";
+}
+
+setInterval(function(){
+moveSlide(1);
+},3000);
+
+</script>
+
+</body>
+</html
